@@ -9,9 +9,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-green-100">
         <Nav />
-        <div>{children}</div>
+        <div
+          className="flex justify-center items-center 
+        min-h-screen 
+        "
+        >
+          {children}
+        </div>
       </body>
     </html>
   );
