@@ -8,6 +8,8 @@ const Nav = () => {
         <div>sketchbook</div>
         <div className="flex gap-10">
           <Link href="/">Home</Link>
+          <Link href="/draw">Draw</Link>
+          {/* <Link href="/SketchBook">Draw</Link> */}
           <Link href="/GeneratePalatte">Generate</Link>
           <Link href="/AutoPalatte">Random</Link>
           <Link href="/Profile">Profile</Link>
